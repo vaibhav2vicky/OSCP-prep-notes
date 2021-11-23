@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>nmap-results</title>
+</head><body>┌──(kali㉿kali)-[~]<br/>
+└─$ sudo nmap -T4 -p- -A 192.168.192.129<br/>
+Starting Nmap 7.92 ( https://nmap.org ) at 2021-11-21 03:07 EST<br/>
+Nmap scan report for 192.168.192.129<br/>
+Host is up (0.00086s latency).<br/>
+Not shown: 65528 closed tcp ports (reset)<br/>
+PORT &nbsp; &nbsp; STATE SERVICE &nbsp;VERSION<br/>
+22/tcp &nbsp; open &nbsp;ssh &nbsp; &nbsp; &nbsp;OpenSSH 3.9p1 (protocol 1.99)<br/>
+|_sshv1: Server supports SSHv1<br/>
+| ssh-hostkey: <br/>
+| &nbsp; 1024 8f:3e:8b:1e:58:63:fe:cf:27:a3:18:09:3b:52:cf:72 (RSA1)<br/>
+| &nbsp; 1024 34:6b:45:3d:ba:ce:ca:b2:53:55:ef:1e:43:70:38:36 (DSA)<br/>
+|_ &nbsp;1024 68:4d:8c:bb:b6:5a:bd:79:71:b8:71:47:ea:00:42:61 (RSA)<br/>
+80/tcp &nbsp; open &nbsp;http &nbsp; &nbsp; Apache httpd 2.0.52 ((CentOS))<br/>
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).<br/>
+|_http-server-header: Apache/2.0.52 (CentOS)<br/>
+111/tcp &nbsp;open &nbsp;rpcbind &nbsp;2 (RPC #100000)<br/>
+| rpcinfo: <br/>
+| &nbsp; program version &nbsp; &nbsp;port/proto &nbsp;service<br/>
+| &nbsp; 100000 &nbsp;2 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;111/tcp &nbsp; rpcbind<br/>
+| &nbsp; 100000 &nbsp;2 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;111/udp &nbsp; rpcbind<br/>
+| &nbsp; 100024 &nbsp;1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;615/udp &nbsp; status<br/>
+|_ &nbsp;100024 &nbsp;1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;618/tcp &nbsp; status<br/>
+443/tcp &nbsp;open &nbsp;ssl/http Apache httpd 2.0.52 ((CentOS))<br/>
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).<br/>
+| sslv2: <br/>
+| &nbsp; SSLv2 supported<br/>
+| &nbsp; ciphers: <br/>
+| &nbsp; &nbsp; SSL2_DES_64_CBC_WITH_MD5<br/>
+| &nbsp; &nbsp; SSL2_RC4_128_EXPORT40_WITH_MD5<br/>
+| &nbsp; &nbsp; SSL2_RC2_128_CBC_EXPORT40_WITH_MD5<br/>
+| &nbsp; &nbsp; SSL2_RC2_128_CBC_WITH_MD5<br/>
+| &nbsp; &nbsp; SSL2_DES_192_EDE3_CBC_WITH_MD5<br/>
+| &nbsp; &nbsp; SSL2_RC4_128_WITH_MD5<br/>
+|_ &nbsp; &nbsp;SSL2_RC4_64_WITH_MD5<br/>
+|_ssl-date: 2021-11-21T05:58:36+00:00; -2h09m38s from scanner time.<br/>
+| ssl-cert: Subject: commonName=localhost.localdomain/organizationName=SomeOrganization/stateOrProvinceName=SomeState/countryName=--<br/>
+| Not valid before: 2009-10-08T00:10:47<br/>
+|_Not valid after: &nbsp;2010-10-08T00:10:47<br/>
+|_http-server-header: Apache/2.0.52 (CentOS)<br/>
+618/tcp &nbsp;open &nbsp;status &nbsp; 1 (RPC #100024)<br/>
+631/tcp &nbsp;open &nbsp;ipp &nbsp; &nbsp; &nbsp;CUPS 1.1<br/>
+| http-methods: <br/>
+|_ &nbsp;Potentially risky methods: PUT<br/>
+|_http-title: 403 Forbidden<br/>
+|_http-server-header: CUPS/1.1<br/>
+3306/tcp open &nbsp;mysql &nbsp; &nbsp;MySQL (unauthorized)<br/>
+MAC Address: 00:0C:29:47:7A:38 (VMware)<br/>
+Device type: general purpose<br/>
+Running: Linux 2.6.X<br/>
+OS CPE: cpe:/o:linux:linux_kernel:2.6<br/>
+OS details: Linux 2.6.9 - 2.6.30<br/>
+Network Distance: 1 hop<br/>
+<br/>
+Host script results:<br/>
+|_clock-skew: -2h09m38s<br/>
+<br/>
+TRACEROUTE<br/>
+HOP RTT &nbsp; &nbsp; ADDRESS<br/>
+1 &nbsp; 0.86 ms 192.168.192.129<br/>
+<br/>
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .<br/>
+Nmap done: 1 IP address (1 host up) scanned in 19.68 seconds</body></html>

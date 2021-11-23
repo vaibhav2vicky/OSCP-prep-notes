@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>gobuster-results</title>
+</head><body>┌──(kali㉿kali)-[~]<br/>
+└─$ gobuster dir -u http://192.168.220.129/ -t 50 -w /usr/share/wordlists/dirb/common.txt -x .php, .html<br/>
+===============================================================<br/>
+Gobuster v3.1.0<br/>
+by OJ Reeves (@TheColonial) &amp; Christian Mehlmauer (@firefart)<br/>
+===============================================================<br/>
+[+] Url: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; http://192.168.220.129/<br/>
+[+] Method: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;GET<br/>
+[+] Threads: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 50<br/>
+[+] Wordlist: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;/usr/share/wordlists/dirb/common.txt<br/>
+[+] Negative Status codes: &nbsp; 404<br/>
+[+] User Agent: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;gobuster/3.1.0<br/>
+[+] Extensions: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;,php<br/>
+[+] Timeout: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 10s<br/>
+===============================================================<br/>
+2021/11/20 01:49:08 Starting gobuster in directory enumeration mode<br/>
+===============================================================<br/>
+/.htaccess &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(Status: 403) [Size: 273]<br/>
+/.htpasswd &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(Status: 403) [Size: 273]<br/>
+/.htaccess.php &nbsp; &nbsp; &nbsp; &nbsp;(Status: 403) [Size: 277]<br/>
+/.htpasswd.php &nbsp; &nbsp; &nbsp; &nbsp;(Status: 403) [Size: 277]<br/>
+/.htaccess. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Status: 403) [Size: 274]<br/>
+/.htpasswd. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Status: 403) [Size: 274]<br/>
+/.hta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Status: 403) [Size: 268]<br/>
+/.hta. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(Status: 403) [Size: 269]<br/>
+/.hta.php &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Status: 403) [Size: 272]<br/>
+/~root &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(Status: 403) [Size: 269]<br/>
+/~operator &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(Status: 403) [Size: 273]<br/>
+/cgi-bin/. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(Status: 403) [Size: 272]<br/>
+/cgi-bin/ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Status: 403) [Size: 272]<br/>
+/index.html &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Status: 200) [Size: 2890]<br/>
+/manual &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Status: 301) [Size: 294] [--&gt; http://127.0.0.1/manual/]<br/>
+/mrtg &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Status: 301) [Size: 292] [--&gt; http://127.0.0.1/mrtg/] &nbsp;<br/>
+/test.php &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Status: 200) [Size: 27] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br/>
+/usage &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(Status: 301) [Size: 293] [--&gt; http://127.0.0.1/usage/] <br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br/>
+===============================================================<br/>
+2021/11/20 01:49:17 Finished<br/>
+===============================================================<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </body></html>

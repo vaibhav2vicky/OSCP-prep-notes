@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>gobuster-result</title>
+</head><body>┌──(kali㉿kali)-[~]<br/>
+└─$ gobuster dir -u http://192.168.192.129/ -t 50 -w /usr/share/wordlists/dirb/big.txt -x .php, .html &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1 ⨯<br/>
+===============================================================<br/>
+Gobuster v3.1.0<br/>
+by OJ Reeves (@TheColonial) &amp; Christian Mehlmauer (@firefart)<br/>
+===============================================================<br/>
+[+] Url: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; http://192.168.192.129/<br/>
+[+] Method: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;GET<br/>
+[+] Threads: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 50<br/>
+[+] Wordlist: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;/usr/share/wordlists/dirb/big.txt<br/>
+[+] Negative Status codes: &nbsp; 404<br/>
+[+] User Agent: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;gobuster/3.1.0<br/>
+[+] Extensions: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;php,<br/>
+[+] Timeout: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 10s<br/>
+===============================================================<br/>
+2021/11/21 03:21:06 Starting gobuster in directory enumeration mode<br/>
+===============================================================<br/>
+/.htaccess.php &nbsp; &nbsp; &nbsp; &nbsp;(Status: 403) [Size: 296]<br/>
+/.htpasswd &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(Status: 403) [Size: 292]<br/>
+/.htaccess. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Status: 403) [Size: 293]<br/>
+/.htpasswd.php &nbsp; &nbsp; &nbsp; &nbsp;(Status: 403) [Size: 296]<br/>
+/.htaccess &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(Status: 403) [Size: 292]<br/>
+/.htpasswd. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Status: 403) [Size: 293]<br/>
+/cgi-bin/ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Status: 403) [Size: 291]<br/>
+/cgi-bin/. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(Status: 403) [Size: 291]<br/>
+/index.php &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(Status: 200) [Size: 667]<br/>
+/manual &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Status: 301) [Size: 319] [--&gt; http://192.168.192.129/manual/]<br/>
+/usage &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(Status: 403) [Size: 288] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br/>
+===============================================================<br/>
+2021/11/21 03:21:14 Finished<br/>
+===============================================================<br/>
+</body></html>
