@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>nmap-results</title>
+</head><body>┌──(kali㉿kali)-[~]<br/>
+└─$ sudo nmap -p- -A -T4 10.0.2.6 <br/>
+Starting Nmap 7.92 ( https://nmap.org ) at 2021-11-25 09:54 EST<br/>
+Nmap scan report for kioptrix3.com (10.0.2.6)<br/>
+Host is up (0.00081s latency).<br/>
+Not shown: 65533 closed tcp ports (reset)<br/>
+PORT &nbsp; STATE SERVICE VERSION<br/>
+22/tcp open &nbsp;ssh &nbsp; &nbsp; OpenSSH 4.7p1 Debian 8ubuntu1.2 (protocol 2.0)<br/>
+| ssh-hostkey: <br/>
+| &nbsp; 1024 30:e3:f6:dc:2e:22:5d:17:ac:46:02:39:ad:71:cb:49 (DSA)<br/>
+|_ &nbsp;2048 9a:82:e6:96:e4:7e:d6:a6:d7:45:44:cb:19:aa:ec:dd (RSA)<br/>
+80/tcp open &nbsp;http &nbsp; &nbsp;Apache httpd 2.2.8 ((Ubuntu) PHP/5.2.4-2ubuntu5.6 with Suhosin-Patch)<br/>
+| http-cookie-flags: <br/>
+| &nbsp; /: <br/>
+| &nbsp; &nbsp; PHPSESSID: <br/>
+|_ &nbsp; &nbsp; &nbsp;httponly flag not set<br/>
+|_http-title: Ligoat Security - Got Goat? Security ...<br/>
+|_http-server-header: Apache/2.2.8 (Ubuntu) PHP/5.2.4-2ubuntu5.6 with Suhosin-Patch<br/>
+MAC Address: 08:00:27:43:7E:B2 (Oracle VirtualBox virtual NIC)<br/>
+Device type: general purpose<br/>
+Running: Linux 2.6.X<br/>
+OS CPE: cpe:/o:linux:linux_kernel:2.6<br/>
+OS details: Linux 2.6.9 - 2.6.33<br/>
+Network Distance: 1 hop<br/>
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel<br/>
+<br/>
+TRACEROUTE<br/>
+HOP RTT &nbsp; &nbsp; ADDRESS<br/>
+1 &nbsp; 0.81 ms kioptrix3.com (10.0.2.6)<br/>
+<br/>
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .<br/>
+Nmap done: 1 IP address (1 host up) scanned in 11.81 seconds<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </body></html>

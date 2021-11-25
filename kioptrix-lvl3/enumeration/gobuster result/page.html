@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>gobuster result</title>
+</head><body>┌──(kali㉿kali)-[~]<br/>
+└─$ gobuster dir --url http://10.0.2.6/ --wordlist /usr/share/wordlists/dirb/common.txt <br/>
+===============================================================<br/>
+Gobuster v3.1.0<br/>
+by OJ Reeves (@TheColonial) &amp; Christian Mehlmauer (@firefart)<br/>
+===============================================================<br/>
+[+] Url: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; http://10.0.2.6/<br/>
+[+] Method: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;GET<br/>
+[+] Threads: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 10<br/>
+[+] Wordlist: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;/usr/share/wordlists/dirb/common.txt<br/>
+[+] Negative Status codes: &nbsp; 404<br/>
+[+] User Agent: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;gobuster/3.1.0<br/>
+[+] Timeout: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 10s<br/>
+===============================================================<br/>
+2021/11/25 10:00:10 Starting gobuster in directory enumeration mode<br/>
+===============================================================<br/>
+/.hta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Status: 403) [Size: 319]<br/>
+/.htpasswd &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(Status: 403) [Size: 324]<br/>
+/cache &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(Status: 301) [Size: 343] [--&gt; http://10.0.2.6/cache/]<br/>
+/.htaccess &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(Status: 403) [Size: 324] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br/>
+/core &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Status: 301) [Size: 342] [--&gt; http://10.0.2.6/core/] <br/>
+/data &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Status: 403) [Size: 319] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br/>
+/favicon.ico &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(Status: 200) [Size: 23126] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br/>
+/gallery &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(Status: 301) [Size: 345] [--&gt; http://10.0.2.6/gallery/]<br/>
+/index.php &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(Status: 200) [Size: 1819] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br/>
+/modules &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(Status: 301) [Size: 345] [--&gt; http://10.0.2.6/modules/]<br/>
+/phpmyadmin &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Status: 301) [Size: 348] [--&gt; http://10.0.2.6/phpmyadmin/]<br/>
+/style &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(Status: 301) [Size: 343] [--&gt; http://10.0.2.6/style/] &nbsp; &nbsp; <br/>
+/server-status &nbsp; &nbsp; &nbsp; &nbsp;(Status: 403) [Size: 328] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br/>
+===============================================================<br/>
+2021/11/25 10:00:11 Finished<br/>
+===============================================================<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</body></html>
