@@ -2,7 +2,7 @@
 <node>
 <version>6</version>
 <dict>
-  <key>expanded</key><false/>
+  <key>expanded</key><true/>
   <key>title</key><string>kioptrix-lvl2</string>
   <key>nodeid</key><string>4fcfec3e-af91-4e25-bb3b-a9737adcbe5e</string>
   <key>modified_time</key><integer>1637428709</integer>
