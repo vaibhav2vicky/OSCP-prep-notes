@@ -2,7 +2,7 @@
 <node>
 <version>6</version>
 <dict>
-  <key>expanded</key><false/>
+  <key>expanded</key><true/>
   <key>title</key><string>Vulnserver</string>
   <key>nodeid</key><string>a9daafd0-65e0-430b-93e3-a8ab6c702c45</string>
   <key>modified_time</key><integer>1637400674</integer>
