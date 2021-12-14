@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>gobuster-www.holo.live</string>
+  <key>nodeid</key><string>529c35cb-ebee-4f4b-ac80-109ef3dd0b17</string>
+  <key>modified_time</key><integer>1639434495</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1639434469</integer>
+  <key>order</key><integer>0</integer>
+</dict>
+</node>
